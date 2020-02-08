@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pdeininger/12_EmployeeTracker/issues"
   },
-  "homepage": "https://github.com/pdeininger/12_EmployeeTracker#readme"
+  "homepage": "https://github.com/pdeininger/12_EmployeeTracker#readme",
+  "dependencies": {
+    "nodes": "^0.1.0"
+  }
 }
