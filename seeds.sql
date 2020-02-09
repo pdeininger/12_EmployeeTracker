@@ -35,11 +35,11 @@ INSERT INTO department (name) Value ("Service");
 
 SELECT * FROM department;
 
-INSERT INTO employee (last_name, first_name, role_id, manager_id) values ('Smith', 'Robert', 1, 234 );
-INSERT INTO employee (last_name, first_name, role_id, manager_id) values ('James', 'Rick', 2,  567);
-INSERT INTO employee (last_name, first_name, role_id, manager_id) values ('Edwards', 'Alyssa', 3, 923 );
-INSERT INTO employee (last_name, first_name, role_id, manager_id) values ('Guerrero', 'Vickie', 4, 437 );
-INSERT INTO employee (last_name, first_name, role_id, manager_id) values ('Fletcher', 'Jessica', 5, 652);
+INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Robert', 'Smith', 1, 234 );
+INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Rick', 'James', 2,  567);
+INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Alyssa', 'Edwards', 3, 923 );
+INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Vickie', 'Guerrero', 4, 437 );
+INSERT INTO employee (first_name, last_name, role_id, manager_id) values ('Jessica', 'Fletcher', 5, 652);
 
 SELECT * FROM employee;
 
