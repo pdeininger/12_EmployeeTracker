@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/pdeininger/12_EmployeeTracker#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.0.4",
+    "mysql": "^2.18.1",
     "nodes": "^0.1.0"
   }
 }
