@@ -74,7 +74,5 @@ On role.department_id=department.id;',function(err, res)
                  name:  "Quit",
                  value:  "Quit"
              }
-         ]
-     }
-    );
+                ]     
  
