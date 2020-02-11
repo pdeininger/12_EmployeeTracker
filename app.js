@@ -41,7 +41,8 @@ On role.department_id=department.id;',function(err, res)
          name:  "questions",
          type:  "list",
          message:  "What would you like to do?",
-         choices:  [
+         choices:  ["Add Employees", "Add Roles", "Add Departments", "View Employees", "View Roles", "View Departments", "Delete Employees", "Delete Roles", "Delete Departments"]
+     })
              {
                  name:  "View Employees",
                  value: "All_Employees"
@@ -75,4 +76,4 @@ On role.department_id=department.id;',function(err, res)
                  value:  "Quit"
              }
                 ]     
- 
+                
